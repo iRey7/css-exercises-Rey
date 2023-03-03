@@ -21,6 +21,14 @@ img {
   gap: 52px;
 }
 
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 200px;
+  text-align: center;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
