@@ -50,4 +50,5 @@ ul {
 .footer {
   display: flex;
   margin-top: auto;
+  background-color: #eeeeee;
 }
