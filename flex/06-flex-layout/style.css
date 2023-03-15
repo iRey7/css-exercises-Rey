@@ -52,6 +52,7 @@ ul {
   flex-direction: column;
   align-items: center;
   margin: auto;
+  gap: 8px;
 }
 
 .footer {
