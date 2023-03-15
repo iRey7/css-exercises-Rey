@@ -28,43 +28,37 @@ input {
   margin-bottom: 16px;
 }
 
-a:link {
-  text-decoration: none;
-}
-
 a {
   color: grey;
+  text-decoration: none;
 }
 
 ul {
   display: flex;
-  list-style-type: none;
-  gap: 10px;
-  padding: 0 25px;
+  list-style: none;
+  margin: 0;
+  gap: 16px;
+  padding: 0;
 }
 
-.header {
+.header, .footer {
   display: flex;
-}
-
-.right-links {
-  margin-left: auto;
+  justify-content: space-between;
+  padding: 16px;
 }
 
 .content {
+  flex: 1;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  margin: auto;
-  gap: 8px;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .footer {
-  display: flex;
-  margin-top: auto;
-  background-color: #eeeeee;
+  background: #eee;
 }
 
 button {
-  padding: 8px;
+  padding: 8px 16px;
 }
