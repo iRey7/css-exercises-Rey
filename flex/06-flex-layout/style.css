@@ -59,3 +59,7 @@ ul {
   margin-top: auto;
   background-color: #eeeeee;
 }
+
+button {
+  padding: 8px;
+}
