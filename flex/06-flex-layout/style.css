@@ -32,6 +32,10 @@ a:link {
   text-decoration: none;
 }
 
+a {
+  color: grey;
+}
+
 ul {
   display: flex;
   list-style-type: none;
