@@ -56,3 +56,16 @@ ul {
   flex: 1;
   display: flex;
 }
+
+.cards-group {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+  gap: 20px;
+}
+
+.card {
+  padding: 16px;
+  flex-basis: 300px;
+  height: auto;
+}
