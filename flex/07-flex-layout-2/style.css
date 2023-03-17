@@ -27,6 +27,7 @@ body {
 }
 
 .sidebar {
+  flex-shrink: 0;
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
