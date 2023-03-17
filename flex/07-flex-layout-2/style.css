@@ -12,7 +12,7 @@ body {
   background: darkmagenta;
   color: white;
   font-weight: 900;
-  padding-left: 16px;
+  padding: 0 16px;
   display: flex;
   align-items: center;
 }
@@ -40,6 +40,10 @@ ul {
   padding: 0;
 }
 
+li {
+  margin-bottom: 16px;
+}
+
 .sidebar a {
   font-size: 24px;
   color: white;
@@ -61,11 +65,10 @@ ul {
   display: flex;
   flex-wrap: wrap;
   padding: 32px;
-  gap: 20px;
 }
 
 .card {
   padding: 16px;
-  flex-basis: 300px;
-  height: auto;
+  margin: 16px;
+  width: 300px;
 }
