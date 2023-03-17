@@ -6,8 +6,11 @@ body {
 
 .header {
   height: 72px;
+  font-size: 32px;
   background: darkmagenta;
   color: white;
+  font-weight: 900;
+  padding-left: 16px;
 }
 
 .footer {
